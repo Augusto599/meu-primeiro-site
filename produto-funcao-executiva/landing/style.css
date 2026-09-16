@@ -16,6 +16,15 @@ header {
   background: linear-gradient(180deg, #eef1f7 0%, #fbfaf7 100%);
 }
 
+.tag {
+  max-width: 30rem;
+  margin: 0 auto 1.5rem;
+  font-size: 0.8rem;
+  color: #6a6a7a;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
 header h1 {
   font-size: 2.1rem;
   max-width: 34rem;

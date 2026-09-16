@@ -38,6 +38,10 @@ Desenho atual: **tudo dentro do WhatsApp**, sem tela/app separado.
   (ordem inesperada, troca de compromisso etc.), sem precisar abrir
   nenhuma tela separada. É pessoal — cada usuário só vê a própria lista,
   não é ferramenta de coordenação de equipe/unidade.
+- **Lembrete em horário definido pelo usuário** — ao registrar a tarefa, o
+  usuário pode dizer quando quer ser lembrado dela (ex: "às 14h revisar o
+  relatório") e o sistema manda o aviso nesse horário — não fica só no
+  lote da mensagem diária.
 - **Reporte diário** — check-in rápido no fim do dia: cumpriu ou não.
 - **Revista semanal** — balanço curto do que andou e o que travou.
 

@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #2d2d3a;
+  background-color: #fbfaf7;
+  line-height: 1.6;
+}
+
+header {
+  padding: 3rem 1.5rem 3rem;
+  text-align: center;
+  background: linear-gradient(180deg, #eaeef1 0%, #fbfaf7 100%);
+}
+
+.tag {
+  max-width: 30rem;
+  margin: 0 auto 1.5rem;
+  font-size: 0.8rem;
+  color: #6a6a7a;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+header h1 {
+  font-size: 2.1rem;
+  max-width: 34rem;
+  margin: 0 auto 1rem;
+}
+
+.subtitulo {
+  max-width: 32rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #55556a;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+.solucao {
+  background-color: #eaeef1;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+}
+
+.cta {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.9rem 1.8rem;
+  background-color: #24384f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.botao:hover {
+  background-color: #182837;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem 3rem;
+  font-size: 0.8rem;
+  color: #8a8a9a;
+  max-width: 32rem;
+  margin: 0 auto;
+}

@@ -15,8 +15,9 @@ parte que falha pra esse público.
 ## Hipótese
 
 Um serviço que empurra estrutura ativamente todo dia (não espera o usuário
-abrir um app) — via canal que a pessoa já checa (email/WhatsApp) — aumenta
-a chance de execução mais do que qualquer app passivo de produtividade.
+abrir um app) — via WhatsApp, canal que a pessoa já checa o dia inteiro —
+aumenta a chance de execução mais do que qualquer app passivo de
+produtividade.
 
 Para quem tem uma rotina onde tarefas surgem de forma imprevisível ao longo
 do dia (ex: militares recebendo ordens/atividades que não estavam no plano
@@ -25,15 +26,36 @@ capturar a tarefa no momento em que ela aparece, sem perder o fio depois.
 
 ## Funcionalidades
 
-- **Ordem do dia pessoal** — mensagem diária (WhatsApp/email) com a UMA
-  prioridade do dia, definida com antecedência.
-- **Lista viva** — uma tela sempre aberta/acessível pra jogar uma tarefa
-  nova assim que ela surge durante o dia (ordem inesperada, troca de
-  compromisso etc.), sem esperar o próximo check-in. É pessoal — cada
-  usuário vê só a própria lista, não é uma ferramenta de coordenação de
-  equipe/unidade.
+Desenho atual: **tudo dentro do WhatsApp**, sem tela/app separado.
+
+- **Cadastro único, sem senha** — o usuário manda uma mensagem pro número
+  uma vez pra começar. O próprio WhatsApp é a identidade — não tem conta
+  nem senha pra lembrar depois.
+- **Ordem do dia** — mensagem diária no WhatsApp com a UMA prioridade do
+  dia, definida com antecedência.
+- **Lista viva no WhatsApp** — o usuário manda uma mensagem pro mesmo
+  número a qualquer hora pra registrar uma tarefa nova assim que ela surge
+  (ordem inesperada, troca de compromisso etc.), sem precisar abrir
+  nenhuma tela separada. É pessoal — cada usuário só vê a própria lista,
+  não é ferramenta de coordenação de equipe/unidade.
 - **Reporte diário** — check-in rápido no fim do dia: cumpriu ou não.
 - **Revista semanal** — balanço curto do que andou e o que travou.
+
+### Como isso funcionaria tecnicamente
+
+- WhatsApp Business API (ex: via Twilio) — não é WhatsApp comum; exige
+  conta business verificada e templates de mensagem aprovados pela Meta
+  pra mandar a "ordem do dia" (mensagem iniciada pelo sistema).
+  Cobra por mensagem.
+- Precisa de um servidor (webhook) pra receber as respostas/tarefas que o
+  usuário manda de volta — sai do escopo "stack simples só estático" que
+  foi a decisão inicial, mas ainda pode ser pequeno/simples.
+- Conta no Twilio/Meta Business Manager precisa ser criada pelo próprio
+  fundador (não delegável) antes de qualquer código de backend.
+
+Decisão: ainda não construir isso agora — primeiro validar a ideia com essa
+versão mais afiada da proposta, depois montar a conta/infra quando houver
+sinal real de interesse.
 
 ## Público-alvo inicial
 

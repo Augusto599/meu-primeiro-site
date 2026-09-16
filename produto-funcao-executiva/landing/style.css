@@ -16,6 +16,10 @@ header {
   background: linear-gradient(180deg, #eef1f7 0%, #fbfaf7 100%);
 }
 
+.logo {
+  margin-bottom: 1.5rem;
+}
+
 header h1 {
   font-size: 2.1rem;
   max-width: 34rem;

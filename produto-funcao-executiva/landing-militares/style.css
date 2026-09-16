@@ -5,22 +5,23 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  color: #2d2d3a;
-  background-color: #fbfaf7;
+  color: #0f2a4a;
+  background-color: #ffffff;
   line-height: 1.6;
 }
 
 header {
   padding: 3rem 1.5rem 3rem;
   text-align: center;
-  background: linear-gradient(180deg, #eaeef1 0%, #fbfaf7 100%);
+  background: linear-gradient(180deg, #0b3d78 0%, #1a5cb0 100%);
+  color: #ffffff;
 }
 
 .tag {
   max-width: 30rem;
   margin: 0 auto 1.5rem;
   font-size: 0.8rem;
-  color: #6a6a7a;
+  color: #cfe0f5;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
@@ -29,13 +30,14 @@ header h1 {
   font-size: 2.1rem;
   max-width: 34rem;
   margin: 0 auto 1rem;
+  color: #ffffff;
 }
 
 .subtitulo {
   max-width: 32rem;
   margin: 0 auto;
   font-size: 1.1rem;
-  color: #55556a;
+  color: #dce9f9;
 }
 
 main {
@@ -51,6 +53,7 @@ section {
 h2 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  color: #0b3d78;
 }
 
 ul {
@@ -62,7 +65,8 @@ li {
 }
 
 .solucao {
-  background-color: #eaeef1;
+  background-color: #eaf2fc;
+  border: 1px solid #cfe0f5;
   padding: 1.5rem 2rem;
   border-radius: 12px;
 }
@@ -70,13 +74,15 @@ li {
 .cta {
   text-align: center;
   padding: 2rem 1rem;
+  background-color: #f4f8fd;
+  border-radius: 12px;
 }
 
 .botao {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.9rem 1.8rem;
-  background-color: #24384f;
+  background-color: #0b3d78;
   color: #fff;
   text-decoration: none;
   border-radius: 999px;
@@ -84,14 +90,14 @@ li {
 }
 
 .botao:hover {
-  background-color: #182837;
+  background-color: #082c58;
 }
 
 footer {
   text-align: center;
   padding: 2rem 1.5rem 3rem;
   font-size: 0.8rem;
-  color: #8a8a9a;
+  color: #5b7699;
   max-width: 32rem;
   margin: 0 auto;
 }

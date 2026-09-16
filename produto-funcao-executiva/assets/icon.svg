@@ -1,5 +1,5 @@
-<svg width="80" height="90" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Norte">
-  <polygon points="40,10 50,45 40,80 30,45" fill="#0b3d78"/>
-  <polygon points="40,10 50,45 40,45" fill="#1a5cb0"/>
-  <polygon points="40,80 30,45 40,45" fill="#7fa8d9"/>
+<svg width="90" height="90" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Norte">
+  <polygon points="45,5 65,45 45,85 25,45" fill="#0b3d78"/>
+  <polygon points="45,5 65,45 45,45" fill="#1a5cb0"/>
+  <polygon points="45,85 25,45 45,45" fill="#7fa8d9"/>
 </svg>

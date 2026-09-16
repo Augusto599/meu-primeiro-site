@@ -18,6 +18,23 @@ Um serviço que empurra estrutura ativamente todo dia (não espera o usuário
 abrir um app) — via canal que a pessoa já checa (email/WhatsApp) — aumenta
 a chance de execução mais do que qualquer app passivo de produtividade.
 
+Para quem tem uma rotina onde tarefas surgem de forma imprevisível ao longo
+do dia (ex: militares recebendo ordens/atividades que não estavam no plano
+da manhã), só a mensagem diária fixa não basta — falta um jeito rápido de
+capturar a tarefa no momento em que ela aparece, sem perder o fio depois.
+
+## Funcionalidades
+
+- **Ordem do dia pessoal** — mensagem diária (WhatsApp/email) com a UMA
+  prioridade do dia, definida com antecedência.
+- **Lista viva** — uma tela sempre aberta/acessível pra jogar uma tarefa
+  nova assim que ela surge durante o dia (ordem inesperada, troca de
+  compromisso etc.), sem esperar o próximo check-in. É pessoal — cada
+  usuário vê só a própria lista, não é uma ferramenta de coordenação de
+  equipe/unidade.
+- **Reporte diário** — check-in rápido no fim do dia: cumpriu ou não.
+- **Revista semanal** — balanço curto do que andou e o que travou.
+
 ## Público-alvo inicial
 
 Freelancers/autônomos que já tentaram apps de produtividade e pararam de

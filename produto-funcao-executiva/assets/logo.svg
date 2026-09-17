@@ -1,6 +1,0 @@
-<svg width="160" height="52" viewBox="0 0 280 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Norte">
-  <polygon points="45,5 65,45 45,85 25,45" fill="#082c58"/>
-  <polygon points="45,5 65,45 45,45" fill="#0f4a8f"/>
-  <polygon points="45,85 25,45 45,45" fill="#5588c2"/>
-  <text x="100" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="700" fill="#082c58" letter-spacing="0.5">Norte</text>
-</svg>
